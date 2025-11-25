@@ -90,6 +90,14 @@ nav:
   - 10. Underhåll & Fastighet:
     - 10_Underhåll_och_fastighet/Underhållsplan_utrustning.md
     - 10_Underhåll_och_fastighet/Kalibrering.md
+  - 11. Varumärke & Kommunikation:
+    - 11_Varumärke_och_Kommunikation/Grafisk_profil.md
+    - 11_Varumärke_och_Kommunikation/Tone_of_voice.md
+    - 11_Varumärke_och_Kommunikation/Bildmanér.md
+    - 11_Varumärke_och_Kommunikation/Webbstrategi.md
+    - 11_Varumärke_och_Kommunikation/Sociala_medier.md
+    - 11_Varumärke_och_Kommunikation/Kriskommunikation.md
+    - 11_Varumärke_och_Kommunikation/Press_och_media.md
 
 markdown_extensions:
   - admonition
