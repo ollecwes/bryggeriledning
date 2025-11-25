@@ -2,6 +2,8 @@
 
 Detta arkiv innehåller dokumentation för ledningssystemet, baserat på `Struktur_ledningssystem.md` och kompletterat med branschstandarder.
 
+![Översikt av ledningssystemet](assets/images/Infographic_optimized.png)
+
 ## Struktur
 
 Systemet är uppdelat i följande huvudområden:
