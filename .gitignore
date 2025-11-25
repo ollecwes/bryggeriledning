@@ -9,6 +9,15 @@ Desktop.ini
 *.swp
 *.swo
 
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# MkDocs
+site/
+
 # Node (if added later)
 node_modules/
 npm-debug.log
