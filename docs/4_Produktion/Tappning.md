@@ -1,3 +1,14 @@
+---
+title: Tappning
+description: Instruktion för tappning på flaska/fat, märkning och rengöring.
+owner: Bryggmästaren
+status: published
+tags:
+  - produktion
+  - förpackning
+  - tappning
+---
+
 # SOP: Tappning
 
 **Syfte:** Att förpacka ölet för försäljning med bibehållen kvalitet.

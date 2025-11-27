@@ -1,3 +1,14 @@
+---
+title: Grafisk profil
+description: Beskrivning av färger, typsnitt och logotypanvändning.
+owner: Marknadsansvarig
+status: published
+tags:
+  - varumärke
+  - design
+  - profil
+---
+
 # Grafisk Profil
 
 Vår grafiska profil speglar vår filosofi: **Radikal Transparens**. Vi döljer ingenting bakom glansiga ytor. Vår estetik är funktionell, teknisk och ärlig, men med en värme som signalerar hantverk och passion.

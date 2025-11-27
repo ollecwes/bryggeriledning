@@ -1,3 +1,14 @@
+---
+title: Sensorisk bedömning
+description: Rutin för smakprovning och identifiering av defekter.
+owner: Bryggmästaren
+status: published
+tags:
+  - kvalitet
+  - sensorik
+  - smak
+---
+
 # Rutin: Sensorisk bedömning
 
 **Syfte:** Att med lukt och smak avgöra om ölet är fritt från defekter och smakar som det ska ("True to Type").

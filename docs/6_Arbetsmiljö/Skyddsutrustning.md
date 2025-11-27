@@ -1,3 +1,14 @@
+---
+title: Skyddsutrustning
+description: Krav på personlig skyddsutrustning (PPE) för olika moment.
+owner: Skyddsombud
+status: published
+tags:
+  - arbetsmiljö
+  - säkerhet
+  - ppe
+---
+
 # Rutin: Skyddsutrustning (PPE)
 
 **Syfte:** Att skydda personalen mot omedelbara risker.

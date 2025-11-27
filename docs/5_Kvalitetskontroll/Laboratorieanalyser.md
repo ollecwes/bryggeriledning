@@ -1,3 +1,14 @@
+---
+title: Laboratorieanalyser
+description: Metoder för mätning av densitet, pH och alkoholhalt.
+owner: Kvalitetsansvarig
+status: published
+tags:
+  - kvalitet
+  - labb
+  - mätning
+---
+
 # Rutin: Laboratorieanalyser
 
 **Syfte:** Att mäta kemiska och fysikaliska parametrar för att säkerställa att ölet håller specifikationen.

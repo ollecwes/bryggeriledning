@@ -1,3 +1,14 @@
+---
+title: Mäskning
+description: Instruktion för inmäskning, rastscehma och lakning.
+owner: Bryggmästaren
+status: published
+tags:
+  - produktion
+  - brygghus
+  - process
+---
+
 # SOP: Mäskning
 
 **Syfte:** Att omvandla stärkelse i malten till förjäsbart socker.

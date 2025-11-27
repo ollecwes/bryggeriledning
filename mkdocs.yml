@@ -32,9 +32,12 @@ theme:
 
 plugins:
   - search
+  - tags:
+      tags_file: tags.md
 
 nav:
   - Hem: index.md
+  - Taggar: tags.md
   - 1. Tillstånd & Registrering:
     - 1_Tillstånd_och_registrering/Serveringstillstånd.md
     - 1_Tillstånd_och_registrering/Livsmedelsregistrering.md

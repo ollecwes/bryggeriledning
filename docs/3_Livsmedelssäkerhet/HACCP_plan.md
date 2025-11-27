@@ -1,3 +1,14 @@
+---
+title: HACCP-plan
+description: Analys av faror och kritiska styrpunkter (CCP) i bryggprocessen.
+owner: Bryggerichef
+status: published
+tags:
+  - haccp
+  - livsmedel
+  - säkerhet
+---
+
 # HACCP-plan (Hazard Analysis and Critical Control Points)
 
 **Syfte:** Att identifiera, bedöma och styra faror som är viktiga för livsmedelssäkerheten.

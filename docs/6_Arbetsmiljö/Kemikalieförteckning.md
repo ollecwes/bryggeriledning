@@ -1,3 +1,14 @@
+---
+title: Kemikalieförteckning
+description: Lista över farliga kemikalier och hantering av säkerhetsdatablad.
+owner: Miljöansvarig
+status: published
+tags:
+  - arbetsmiljö
+  - kemikalier
+  - säkerhet
+---
+
 # Rutin: Kemikalieförteckning
 
 **Syfte:** Att ha kontroll över farliga ämnen och säkerställa rätt hantering.

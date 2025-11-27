@@ -1,3 +1,14 @@
+---
+title: Serveringstillstånd
+description: Guide för ansökan om stadigvarande eller tillfälligt serveringstillstånd.
+owner: VD
+status: published
+tags:
+  - lagkrav
+  - servering
+  - tillstånd
+---
+
 # Process: Serveringstillstånd
 
 **Syfte:** Att möjliggöra provsmakning och servering av egenproducerad öl till allmänheten eller slutna sällskap.

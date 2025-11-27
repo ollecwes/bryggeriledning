@@ -1,3 +1,14 @@
+---
+title: Råvarulager
+description: Regler för förvaring av malt, humle, jäst och kemikalier.
+owner: Lageransvarig
+status: published
+tags:
+  - lager
+  - råvaror
+  - kvalitet
+---
+
 # Rutin: Råvarulager
 
 **Syfte:** Att förvara råvaror så att de håller sig fräscha och säkra.

@@ -1,3 +1,14 @@
+---
+title: Receptutveckling
+description: Process för att ta fram nya ölrecept och provbryggning.
+owner: Bryggmästaren
+status: published
+tags:
+  - produktion
+  - utveckling
+  - recept
+---
+
 # Process: Receptutveckling
 
 **Syfte:** Att skapa nya, högkvalitativa öl som möter marknadens efterfrågan och bryggeriets kvalitetskrav.

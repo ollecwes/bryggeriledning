@@ -1,3 +1,14 @@
+---
+title: Skadedjursbekämpning
+description: Förebyggande åtgärder och rutiner för kontroll av skadedjur.
+owner: Fastighetsansvarig
+status: published
+tags:
+  - hygien
+  - fastighet
+  - skadedjur
+---
+
 # Rutin: Skadedjursbekämpning
 
 **Syfte:** Att hålla lokalerna fria från skadedjur (råttor, möss, insekter, fåglar) som kan sprida smitta.

@@ -1,3 +1,14 @@
+---
+title: Bildmanér
+description: Riktlinjer för fotografering, bildstil och redigering.
+owner: Marknadsansvarig
+status: published
+tags:
+  - varumärke
+  - kommunikation
+  - design
+---
+
 # Bildmanér
 
 En bild säger mer än tusen rader kod. Våra bilder ska bevisa vår transparens. De ska kännas som att man står bredvid bryggaren.

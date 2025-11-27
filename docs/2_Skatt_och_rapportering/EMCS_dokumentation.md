@@ -1,3 +1,14 @@
+---
+title: EMCS-dokumentation
+description: Rutin för hantering av elektroniska ledsagardokument (e-AD) vid flytt av alkoholvaror.
+owner: Logistikansvarig
+status: published
+tags:
+  - skatt
+  - logistik
+  - export
+---
+
 # Process: EMCS-dokumentation
 
 **Syfte:** Att säkerställa spårbarhet och skattekontroll vid flytt av alkoholvaror under skatteuppskov (duty suspension).

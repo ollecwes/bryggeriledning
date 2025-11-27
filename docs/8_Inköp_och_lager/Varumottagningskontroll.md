@@ -1,3 +1,14 @@
+---
+title: Varumottagningskontroll
+description: Rutin för kontroll av inkommande gods och hantering av avvikelser.
+owner: Lageransvarig
+status: published
+tags:
+  - lager
+  - kvalitet
+  - mottagning
+---
+
 # Rutin: Varumottagningskontroll
 
 **Syfte:** Att stoppa felaktiga eller skadade varor vid dörren.

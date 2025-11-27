@@ -1,3 +1,14 @@
+---
+title: Förpackningsrapportering
+description: Rutin för rapportering av förpackningsvolymer till NPA och Naturvårdsverket.
+owner: Miljöansvarig
+status: published
+tags:
+  - miljö
+  - rapportering
+  - lagkrav
+---
+
 # Process: Förpackningsrapportering (Naturvårdsverket)
 
 **Syfte:** Att uppfylla producentansvaret för förpackningar genom rapportering och betalning av förpackningsavgifter.

@@ -1,3 +1,14 @@
+---
+title: Lagring och Mognad
+description: Process för lagring, mognad och kolsyresättning av öl.
+owner: Bryggmästaren
+status: published
+tags:
+  - produktion
+  - lagring
+  - kolsyra
+---
+
 # SOP: Lagring och Mognad
 
 **Syfte:** Att låta ölet utveckla sin slutgiltiga smak och kolsyresättas.

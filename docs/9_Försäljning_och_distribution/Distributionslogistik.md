@@ -1,3 +1,14 @@
+---
+title: Distributionslogistik
+description: Rutiner för egen distribution, extern frakt och returgods.
+owner: Logistikansvarig
+status: published
+tags:
+  - logistik
+  - distribution
+  - transport
+---
+
 # Rutin: Distributionslogistik
 
 **Syfte:** Att få ut ölet till kund kostnadseffektivt och helt.

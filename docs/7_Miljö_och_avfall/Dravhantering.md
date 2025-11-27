@@ -1,3 +1,14 @@
+---
+title: Dravhantering
+description: Rutin för hantering, hygien och avyttring av drav (mäskrest) till lantbruk.
+owner: Bryggmästaren
+status: published
+tags:
+  - miljö
+  - avfall
+  - produktion
+---
+
 # Rutin: Dravhantering
 
 **Syfte:** Att hantera restprodukten från mäskningen (drav) på ett miljösmart sätt.

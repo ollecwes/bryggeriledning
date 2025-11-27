@@ -1,3 +1,14 @@
+---
+title: Spårbarhetssystem
+description: Rutin för spårbarhet av råvaror och färdigvaror via batchnummer.
+owner: Bryggerichef
+status: published
+tags:
+  - spårbarhet
+  - kvalitet
+  - logistik
+---
+
 # Rutin: Spårbarhetssystem
 
 **Syfte:** Att kunna spåra en produkt bakåt till råvaran (vid kvalitetsfel) och framåt till kund (vid återkallande).

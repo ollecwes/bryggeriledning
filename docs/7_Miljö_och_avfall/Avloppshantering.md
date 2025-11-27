@@ -1,3 +1,14 @@
+---
+title: Avloppshantering
+description: Rutin för hantering av avloppsvatten, pH-neutralisering och destruktion av jäst/druv.
+owner: Bryggmästaren
+status: published
+tags:
+  - miljö
+  - avfall
+  - vatten
+---
+
 # Rutin: Avloppshantering
 
 **Syfte:** Att inte släppa ut skadliga ämnen eller belasta det kommunala reningsverket felaktigt.

@@ -1,3 +1,14 @@
+---
+title: Gårdsförsäljning
+description: Regler och krav för direktförsäljning av öl vid bryggeriet (gäller från 1 juni 2025).
+owner: VD
+status: published
+tags:
+  - lagkrav
+  - försäljning
+  - tillstånd
+---
+
 # Process: Gårdsförsäljning (Gäller från 1 juni 2025)
 
 **Syfte:** Att reglera direktförsäljning av egenproducerad öl till konsumenter vid produktionsstället.

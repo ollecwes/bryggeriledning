@@ -1,3 +1,14 @@
+---
+title: Leverantörsbedömning
+description: Kriterier och process för utvärdering och godkännande av leverantörer.
+owner: Inköpsansvarig
+status: published
+tags:
+  - inköp
+  - kvalitet
+  - leverantör
+---
+
 # Rutin: Leverantörsbedömning
 
 **Syfte:** Att säkerställa att vi bara köper råvaror från pålitliga leverantörer som uppfyller våra kvalitetskrav.

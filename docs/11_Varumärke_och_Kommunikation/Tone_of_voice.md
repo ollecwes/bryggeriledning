@@ -1,3 +1,14 @@
+---
+title: Tone of Voice
+description: Riktlinjer för hur varumärket låter och uttrycker sig i text.
+owner: Marknadsansvarig
+status: published
+tags:
+  - varumärke
+  - kommunikation
+  - copy
+---
+
 # Tone of Voice
 
 Vårt språk är vår starkaste markör för transparens. Vi talar inte *till* våra kunder, vi talar *med* andra entusiaster. Vi är nördarna som bjuder in alla till labbet.

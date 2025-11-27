@@ -1,3 +1,14 @@
+---
+title: Statistikrapport FHM
+description: Årlig rapportering av tillverkning och försäljning till Folkhälsomyndigheten.
+owner: VD
+status: published
+tags:
+  - rapportering
+  - lagkrav
+  - statistik
+---
+
 # Process: Statistikrapport till Folkhälsomyndigheten
 
 **Syfte:** Att uppfylla lagkravet på statistisk rapportering av tillverkning och försäljning av alkohol.

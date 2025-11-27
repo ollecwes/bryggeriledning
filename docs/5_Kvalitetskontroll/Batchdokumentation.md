@@ -1,3 +1,14 @@
+---
+title: Batchdokumentation
+description: Krav på innehåll och arkivering av bryggprotokoll.
+owner: Bryggmästaren
+status: published
+tags:
+  - kvalitet
+  - dokumentation
+  - spårbarhet
+---
+
 # Rutin: Batchdokumentation (Bryggprotokoll)
 
 **Syfte:** Att samla all data om en specifik bryggning på ett ställe för spårbarhet och kvalitetsuppföljning.

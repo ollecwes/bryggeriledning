@@ -1,3 +1,14 @@
+---
+title: Kokning
+description: Instruktion för vörtkokning, humlegivor och whirlpool (CCP 1).
+owner: Bryggmästaren
+status: published
+tags:
+  - produktion
+  - brygghus
+  - ccp
+---
+
 # SOP: Kokning (CCP 1)
 
 **Syfte:** Sterilisera vörten, isomerisera humle (beska), koagulera proteiner och driva bort DMS.

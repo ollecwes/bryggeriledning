@@ -1,3 +1,14 @@
+---
+title: Avvikelsehantering
+description: Rutin för rapportering, åtgärd och uppföljning av fel och avvikelser.
+owner: Kvalitetsansvarig
+status: published
+tags:
+  - kvalitet
+  - förbättring
+  - avvikelse
+---
+
 # Rutin: Avvikelsehantering
 
 **Syfte:** Att fånga upp fel, utreda orsaken och förhindra att de händer igen.

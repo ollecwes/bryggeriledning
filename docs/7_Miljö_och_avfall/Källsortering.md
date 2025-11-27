@@ -1,3 +1,14 @@
+---
+title: Källsortering
+description: Instruktion för sortering av avfall i fraktioner som wellpapp, plast, glas och farligt avfall.
+owner: Bryggmästaren
+status: published
+tags:
+  - miljö
+  - avfall
+  - återvinning
+---
+
 # Rutin: Källsortering
 
 **Syfte:** Att minimera restavfall och maximera återvinning.

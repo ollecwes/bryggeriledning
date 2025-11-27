@@ -1,3 +1,14 @@
+---
+title: SAM-dokumentation
+description: Systematiskt arbetsmiljöarbete, skyddsronder och riskbedömningar.
+owner: VD
+status: published
+tags:
+  - arbetsmiljö
+  - lagkrav
+  - sam
+---
+
 # Rutin: SAM-dokumentation (Systematiskt Arbetsmiljöarbete)
 
 **Syfte:** Att undersöka, riskbedöma, åtgärda och följa upp arbetsmiljön för att ingen ska bli sjuk eller skada sig.

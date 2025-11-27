@@ -1,3 +1,14 @@
+---
+title: Sociala Medier
+description: Strategi för närvaro och innehåll på Instagram, LinkedIn och Untappd.
+owner: Marknadsansvarig
+status: published
+tags:
+  - kommunikation
+  - sociala medier
+  - marknadsföring
+---
+
 # Sociala Medier
 
 Vi bygger vårt varumärke genom att **bygga offentligt** (Build in Public). Sociala medier är vår dagliga loggbok som vi delar med världen.

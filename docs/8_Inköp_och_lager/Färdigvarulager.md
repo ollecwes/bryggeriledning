@@ -1,3 +1,14 @@
+---
+title: Färdigvarulager
+description: Rutin för lagring, rotation (FIFO) och klimatkontroll av färdigt öl.
+owner: Lageransvarig
+status: published
+tags:
+  - lager
+  - logistik
+  - kvalitet
+---
+
 # Rutin: Färdigvarulager
 
 **Syfte:** Att lagra färdig öl så att kvaliteten bevaras fram till kund.

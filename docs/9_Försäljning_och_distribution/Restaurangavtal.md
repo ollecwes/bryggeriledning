@@ -1,3 +1,14 @@
+---
+title: Restaurangavtal
+description: Rutin för nykundsbearbetning, kreditkontroll och fatpant.
+owner: Säljare
+status: published
+tags:
+  - försäljning
+  - avtal
+  - ekonomi
+---
+
 # Rutin: Restaurangavtal
 
 **Syfte:** Att bygga långsiktiga relationer med restaurangkunder och säkra betalning.

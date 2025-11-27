@@ -1,3 +1,14 @@
+---
+title: Jäsning
+description: Instruktion för jäsningsprocessen, från pitching till cold crash.
+owner: Bryggmästaren
+status: published
+tags:
+  - produktion
+  - jäsning
+  - process
+---
+
 # SOP: Jäsning
 
 **Syfte:** Att omvandla socker till alkohol och koldioxid samt skapa ölets smakprofil.

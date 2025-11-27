@@ -1,3 +1,14 @@
+---
+title: Webbstrategi
+description: Strategi för webbplatsens syfte, målgrupper och funktioner.
+owner: Marknadsansvarig
+status: published
+tags:
+  - webb
+  - strategi
+  - digitalt
+---
+
 # Webbstrategi
 
 Vår webbplats är inte en broschyr. Det är en **digital förlängning av bryggeriet**. Besökaren ska känna att de kliver in i produktionen.

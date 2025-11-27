@@ -1,3 +1,14 @@
+---
+title: Producentansvar
+description: Översikt av bryggeriets ansvar för förpackningar och anslutning till återvinningssystem.
+owner: VD
+status: published
+tags:
+  - miljö
+  - lagkrav
+  - förpackningar
+---
+
 # Rutin: Producentansvar
 
 **Syfte:** Att ta ansvar för de förpackningar vi sätter på marknaden.

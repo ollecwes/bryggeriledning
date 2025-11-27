@@ -1,3 +1,14 @@
+---
+title: Ergonomi och Lyft
+description: Riktlinjer för tunga lyft och arbetsställningar.
+owner: Skyddsombud
+status: published
+tags:
+  - arbetsmiljö
+  - hälsa
+  - ergonomi
+---
+
 # Rutin: Ergonomi och Lyft
 
 **Syfte:** Att förebygga belastningsskador i rygg, axlar och knän.

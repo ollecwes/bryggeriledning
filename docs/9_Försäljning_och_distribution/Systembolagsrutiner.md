@@ -1,3 +1,14 @@
+---
+title: Systembolagsrutiner
+description: Process för offert, lansering (TSLS) och leverans till Systembolaget.
+owner: Säljare
+status: published
+tags:
+  - försäljning
+  - systembolaget
+  - logistik
+---
+
 # Rutin: Systembolagsrutiner
 
 **Syfte:** Att hantera försäljningen till vår största kund korrekt och effektivt.

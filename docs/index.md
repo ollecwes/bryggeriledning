@@ -1,3 +1,14 @@
+---
+title: Hem
+description: Startsida för ledningssystemet med översikt över processer och struktur.
+owner: VD
+status: published
+tags:
+  - översikt
+  - start
+  - ledning
+---
+
 # Ledningssystem för Mikrobryggeri
 
 ![Översikt av ledningssystemet](assets/images/Infographic_optimized.png)

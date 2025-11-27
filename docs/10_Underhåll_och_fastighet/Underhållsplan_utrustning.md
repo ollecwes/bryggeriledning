@@ -1,3 +1,14 @@
+---
+title: Underhållsplan Utrustning
+description: Schema för förebyggande underhåll av bryggverk, kylmaskin och tapplina.
+owner: Fastighetsansvarig
+status: published
+tags:
+  - underhåll
+  - utrustning
+  - drift
+---
+
 # Rutin: Underhållsplan Utrustning
 
 **Syfte:** Att förebygga maskinhaveri och produktionsstopp.

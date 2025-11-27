@@ -1,3 +1,14 @@
+---
+title: Punktskattedeklaration
+description: Instruktion för beräkning och deklaration av alkoholskatt till Skatteverket.
+owner: Ekonomiansvarig
+status: published
+tags:
+  - skatt
+  - ekonomi
+  - lagkrav
+---
+
 # Process: Punktskattedeklaration
 
 **Syfte:** Att korrekt redovisa och betala alkoholskatt till Skatteverket.

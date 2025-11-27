@@ -1,3 +1,14 @@
+---
+title: Provsmakning och Besök
+description: Säkerhets- och hygienregler för besökare och provsmakning.
+owner: Besöksansvarig
+status: published
+tags:
+  - besök
+  - säkerhet
+  - försäljning
+---
+
 # Rutin: Provsmakning och Besök
 
 **Syfte:** Att ta emot besökare på ett säkert och trevligt sätt.

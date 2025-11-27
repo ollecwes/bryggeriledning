@@ -1,3 +1,14 @@
+---
+title: Personalutbildning
+description: Rutiner för hygien, introduktion och löpande utbildning av personal.
+owner: Bryggerichef
+status: published
+tags:
+  - personal
+  - hygien
+  - utbildning
+---
+
 # Rutin: Personalutbildning & Hygien
 
 **Syfte:** Att säkerställa att alla som hanterar livsmedel har tillräcklig kunskap och god hygien.

@@ -1,3 +1,14 @@
+---
+title: Återkallandeplan
+description: Krisplan för återkallande av defekta eller farliga produkter.
+owner: VD
+status: published
+tags:
+  - kris
+  - säkerhet
+  - kvalitet
+---
+
 # Rutin: Återkallandeplan (Kris)
 
 **Syfte:** Att snabbt och effektivt kunna dra tillbaka en farlig eller defekt produkt från marknaden.

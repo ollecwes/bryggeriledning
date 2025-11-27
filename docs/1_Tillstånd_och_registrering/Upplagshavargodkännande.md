@@ -1,3 +1,14 @@
+---
+title: Upplagshavargodkännande
+description: Krav och ansökningsprocess för att bli godkänd upplagshavare för alkoholskatt.
+owner: VD
+status: published
+tags:
+  - lagkrav
+  - skatt
+  - start
+---
+
 # Process: Upplagshavargodkännande och Skatteupplag
 
 **Syfte:** Att säkerställa att bryggeriet har rätt att tillverka, lagra och flytta alkoholvaror under uppskov av punktskatt.

@@ -1,3 +1,14 @@
+---
+title: Press och Media
+description: Information för journalister, presskit och kontaktuppgifter.
+owner: Marknadsansvarig
+status: published
+tags:
+  - kommunikation
+  - press
+  - media
+---
+
 # Press & Media
 
 Vi gör det enkelt för journalister, bloggare och poddare att skriva om oss. Vi tillhandahåller ett **Open Press Kit** som alltid är uppdaterat.

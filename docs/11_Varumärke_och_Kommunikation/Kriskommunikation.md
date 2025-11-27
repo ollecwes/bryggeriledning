@@ -1,3 +1,14 @@
+---
+title: Kriskommunikation
+description: Strategi och mallar för kommunikation vid kriser och produktlarm.
+owner: VD
+status: published
+tags:
+  - kommunikation
+  - kris
+  - säkerhet
+---
+
 # Kriskommunikation
 
 I en bransch där vi hanterar livsmedel (och alkohol) är förtroende allt. Vår kriskommunikation bygger på en enkel princip: **Berätta sanningen, berätta den fort, och berätta vad vi gör åt det.**

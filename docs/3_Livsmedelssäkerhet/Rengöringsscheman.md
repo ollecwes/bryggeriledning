@@ -1,3 +1,14 @@
+---
+title: Rengöringsscheman
+description: Instruktioner för CIP (tankrengöring) och allmän lokalvård.
+owner: Bryggerichef
+status: published
+tags:
+  - rengöring
+  - hygien
+  - cip
+---
+
 # Rutin: Rengöringsscheman (CIP & Lokal)
 
 **Syfte:** Att förhindra mikrobiologisk kontaminering och upprätthålla en hygienisk arbetsmiljö.

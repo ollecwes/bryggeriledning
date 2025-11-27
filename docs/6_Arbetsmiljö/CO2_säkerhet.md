@@ -1,3 +1,14 @@
+---
+title: CO2-säkerhet
+description: Säkerhetsrutiner för hantering av koldioxid och larm.
+owner: Skyddsombud
+status: published
+tags:
+  - arbetsmiljö
+  - säkerhet
+  - gas
+---
+
 # Rutin: CO2-säkerhet
 
 **Syfte:** Att förhindra kvävningsolyckor orsakade av koldioxid.

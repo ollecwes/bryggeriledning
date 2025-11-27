@@ -1,3 +1,14 @@
+---
+title: Kalibrering
+description: Rutin för kalibrering av termometrar, pH-mätare och vågar.
+owner: Kvalitetsansvarig
+status: published
+tags:
+  - underhåll
+  - kvalitet
+  - mätning
+---
+
 # Rutin: Kalibrering
 
 **Syfte:** Att lita på våra mätvärden. En felaktig termometer kan förstöra en hel batch.

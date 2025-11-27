@@ -1,3 +1,14 @@
+---
+title: Egenkontrollprogram
+description: Översikt av bryggeriets system för livsmedelssäkerhet och egenkontroll.
+owner: VD
+status: published
+tags:
+  - livsmedel
+  - säkerhet
+  - kvalitet
+---
+
 # Egenkontrollprogram (Översikt)
 
 **Syfte:** Att systematiskt säkerställa att livsmedelslagen och våra egna kvalitetskrav efterlevs.

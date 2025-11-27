@@ -1,3 +1,14 @@
+---
+title: Livsmedelsregistrering
+description: Process för registrering av livsmedelsanläggning hos kommunen.
+owner: VD
+status: published
+tags:
+  - lagkrav
+  - livsmedel
+  - start
+---
+
 # Process: Livsmedelsregistrering
 
 **Syfte:** Att uppfylla lagkravet på registrering av livsmedelsanläggning innan verksamheten startar.

@@ -1,3 +1,14 @@
+---
+title: Temperaturövervakning
+description: Rutiner för kontroll av temperaturer i jäsning, lager och kylrum.
+owner: Bryggerichef
+status: published
+tags:
+  - kvalitet
+  - jäsning
+  - lager
+---
+
 # Rutin: Temperaturövervakning
 
 **Syfte:** Att säkerställa produktkvalitet och livsmedelssäkerhet genom kontroll av kritiska temperaturer.
