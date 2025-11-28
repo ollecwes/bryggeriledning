@@ -36,5 +36,5 @@ Om verksamheten förändras väsentligt måste detta meddelas kommunen:
 ## Dokumentation att visa vid kontroll
 Vid inspektion ska följande finnas tillgängligt:
 *   Registreringsbevis.
-*   Egenkontrollprogram (se mapp `3_Livsmedelssäkerhet`).
+*   Egenkontrollprogram (se mapp [3_Livsmedelssäkerhet](../3_Livsmedelssäkerhet/Egenkontrollprogram.md)).
 *   Ritningar över flöden i lokalen.

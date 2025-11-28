@@ -38,4 +38,4 @@ Personalen ska vara uppmärksam på tecken:
 1.  Kontakta saneringsfirman direkt.
 2.  Städa extra noga i området.
 3.  Täta eventuella ingångshål.
-4.  Dokumentera i `Avvikelsehantering`.
+4.  Dokumentera i [Avvikelsehantering](../5_Kvalitetskontroll/Avvikelsehantering.md).

@@ -41,7 +41,7 @@ Ansökan görs till Skatteverket. Handläggningstiden är normalt 4–8 veckor.
 När godkännandet är klart gäller följande:
 *   **Lagerbokföring:** Alla rörelser in och ut ur skatteupplaget ska bokföras löpande.
 *   **Inventering:** Fysisk inventering ska ske minst en gång per år (rekommenderat kvartalsvis).
-*   **Flytt av varor:** Vid flytt till annat skatteupplag (t.ex. Systembolaget) ska EMCS-systemet användas (se process `EMCS-dokumentation`).
+*   **Flytt av varor:** Vid flytt till annat skatteupplag (t.ex. Systembolaget) ska EMCS-systemet användas (se process [EMCS-dokumentation](../2_Skatt_och_rapportering/EMCS_dokumentation.md)).
 
 ## Referenser
 *   Lag (2022:156) om alkoholskatt

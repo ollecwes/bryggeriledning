@@ -34,7 +34,7 @@ Ansökan görs till kommunens socialförvaltning/tillståndsenhet.
 
 ## 3. Löpande krav
 *   **Serveringsansvarig:** Måste finnas på plats eller vara nåbar när servering pågår.
-*   **Restaurangrapport:** Ska lämnas årligen till kommunen/Folkhälsomyndigheten (se `2_Skatt_och_rapportering`).
+*   **Restaurangrapport:** Ska lämnas årligen till kommunen/Folkhälsomyndigheten (se [2_Skatt_och_rapportering](../2_Skatt_och_rapportering/Statistikrapport_FHM.md)).
 *   **Tillsyn:** Kommunen och Polisen gör tillsynsbesök.
 
 ## Referenser

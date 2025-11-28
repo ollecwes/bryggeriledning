@@ -20,7 +20,7 @@ Produktionen är en industriarbetsplats.
 *   **Guide:** Besökare får aldrig gå runt ensamma i produktionen.
 
 ## 2. Provsmakning (Publikt)
-Vid guidade visningar (se `../1_Tillstånd_och_registrering/Gårdsförsäljning.md`):
+Vid guidade visningar (se [Gårdsförsäljning](../1_Tillstånd_och_registrering/Gårdsförsäljning.md)):
 *   **Åldersgräns:** 18 år för provsmakning (20 år för köp av flaskor).
 *   **Mängd:** "Smakprov" (typiskt 10-15 cl).
 *   **Alkoholfritt:** Ska alltid finnas som alternativ.

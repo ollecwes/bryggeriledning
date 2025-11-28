@@ -20,7 +20,7 @@ Varje bryggning tilldelas ett unikt batchnummer.
 *   Detta nummer följer ölet genom hela processen: Bryggning -> Jäsning -> Lagring -> Tappning.
 
 ## 2. Spårbarhet BAKÅT (Råvaror)
-I `Bryggprotokollet` för varje batch noteras:
+I [Bryggprotokollet](../5_Kvalitetskontroll/Batchdokumentation.md) för varje batch noteras:
 *   **Malt:** Leverantör, maltsort, batchnummer/bäst-före-datum.
 *   **Humle:** Leverantör, sort, skördeår/batchnummer.
 *   **Jäst:** Leverantör, stam, batchnummer/generation.

@@ -17,11 +17,11 @@ tags:
 
 ## 1. Grundförutsättningar (GHP)
 För att HACCP-planen ska fungera måste grundläggande hygienrutiner finnas på plats. Dessa dokumenteras i separata rutiner:
-*   **Personalhygien:** Se `Personalutbildning.md`
-*   **Rengöring:** Se `Rengöringsscheman.md`
-*   **Skadedjur:** Se `Skadedjursbekämpning.md`
+*   **Personalhygien:** Se [Personalutbildning](Personalutbildning.md)
+*   **Rengöring:** Se [Rengöringsscheman](Rengöringsscheman.md)
+*   **Skadedjur:** Se [Skadedjursbekämpning](Skadedjursbekämpning.md)
 *   **Vatten:** Vi använder kommunalt vatten. Vattenprov tas årligen (om egen brunn: kvartalsvis).
-*   **Underhåll:** Se `../10_Underhåll_och_fastighet/Underhållsplan_utrustning.md`
+*   **Underhåll:** Se [Underhållsplan](../10_Underhåll_och_fastighet/Underhållsplan_utrustning.md)
 
 ## 2. Organisation
 *   **Verksamhetsansvarig:** VD (ytterst ansvarig för att programmet finns och följs).
@@ -31,7 +31,7 @@ För att HACCP-planen ska fungera måste grundläggande hygienrutiner finnas på
 Alla kontroller ska journalföras.
 *   **Signering:** Den som utför kontrollen signerar (digitalt eller på papper).
 *   **Arkivering:** Journaler sparas i 2 år (livsmedelssäkerhet) eller 7 år (ekonomi/skatt).
-*   **Avvikelser:** Alla avvikelser ska rapporteras och åtgärdas (se `../5_Kvalitetskontroll/Avvikelsehantering.md`).
+*   **Avvikelser:** Alla avvikelser ska rapporteras och åtgärdas (se [Avvikelsehantering](../5_Kvalitetskontroll/Avvikelsehantering.md)).
 
 ## 4. Revision
 Egenkontrollprogrammet utvärderas årligen inför ledningens genomgång.

@@ -24,7 +24,7 @@ Rengöring av jästankar, lagertankar och bryggverk sker genom cirkulation av ke
 5.  **Slutsköljning:** Kallt vatten.
 6.  **Desinficering (Sanitizer):** Cirkulera PAA (Perättiksyra) strax innan användning. Skölj EJ efteråt.
 
-*   **Dokumentation:** Signeras på `Bryggprotokoll` eller `Tanklogg`.
+*   **Dokumentation:** Signeras på [Bryggprotokoll](../5_Kvalitetskontroll/Batchdokumentation.md) eller `Tanklogg`.
 
 ## 2. Lokalvård
 En ren lokal minskar risken för skadedjur och mögel.
@@ -47,5 +47,5 @@ En ren lokal minskar risken för skadedjur och mögel.
 *   [ ] Rengör kylrumsgolv.
 
 ## 3. Kemikalier
-*   Se `../6_Arbetsmiljö/Kemikalieförteckning.md` för säkerhetsdatablad och skyddsutrustning.
+*   Se [Kemikalieförteckning](../6_Arbetsmiljö/Kemikalieförteckning.md) för säkerhetsdatablad och skyddsutrustning.
 *   **Varning:** Blanda ALDRIG klorbaserade medel med syra (bildar klorgas!).

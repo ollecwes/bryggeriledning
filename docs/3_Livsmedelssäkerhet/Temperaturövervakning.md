@@ -20,7 +20,7 @@ Temperaturen under jäsningen är avgörande för ölets smakprofil (estrar, fen
     *   *Lager:* Typiskt 10–13°C.
 *   **Metod:** Avläsning på tankens termometer eller via digitalt styrsystem.
 *   **Frekvens:** Dagligen (morgon och eftermiddag).
-*   **Dokumentation:** Förs i `Bryggprotokoll` (Batch-logg).
+*   **Dokumentation:** Förs i [Bryggprotokoll](../5_Kvalitetskontroll/Batchdokumentation.md) (Batch-logg).
 
 ## 2. Kylrum / Färdigvarulager
 För att behålla ölets färskhet ska färdig produkt lagras svalt.

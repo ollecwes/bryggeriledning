@@ -32,7 +32,7 @@ Ett återkallande ska övervägas om produkten utgör en risk för människors h
     *   **Konsumenter:** Vid allvarlig fara, gå ut med pressmeddelande/sociala medier.
 
 ## 3. Genomförande
-1.  **Identifiera:** Vilka batchnummer är drabbade? (Använd `Spårbarhetssystem.md`).
+1.  **Identifiera:** Vilka batchnummer är drabbade? (Använd [Spårbarhetssystem](Spårbarhetssystem.md)).
 2.  **Isolera:** Spärra kvarvarande lager fysiskt (Märk med "SPÄRRAD - FÅR EJ SÄLJAS").
 3.  **Informera:** Skicka ut återkallelseinstruktion till kunder (returfraktsedel).
 4.  **Samla in:** Ta emot returer och placera i spärrat lager.
