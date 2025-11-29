@@ -9,7 +9,7 @@ tags:
   - ledning
 ---
 
-# Ledningssystem för Mikrobryggeri
+# Ledningssystem för Brygd
 
 ![Översikt av ledningssystemet](assets/images/Infographic_optimized.png)
 

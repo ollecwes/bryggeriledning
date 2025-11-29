@@ -11,7 +11,7 @@ tags:
 
 # Grafisk Profil
 
-Vår grafiska profil speglar vår filosofi: **Radikal Transparens**. Vi döljer ingenting bakom glansiga ytor. Vår estetik är funktionell, teknisk och ärlig, men med en värme som signalerar hantverk och passion.
+Vår grafiska profil speglar Brygds filosofi: **Radikal Transparens**. Vi döljer ingenting bakom glansiga ytor. Vår estetik är funktionell, teknisk och ärlig, men med en värme som signalerar hantverk och passion.
 
 ## Grundfilosofi: "The Open Source Brewery"
 Vi ser ut som ett öppet arkiv. Tänk ritningar, tekniska specifikationer, loggböcker och kod. Men vi är inte kalla eller sterila – vi är smutsiga händer, ånga och koppar.
