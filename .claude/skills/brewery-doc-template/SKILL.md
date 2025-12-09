@@ -71,22 +71,60 @@ The `status` field must be one of:
 - **draft** - Document is in development
 - **archived** - Document is no longer active but kept for reference
 
+## Python Script Available
+
+This skill has a companion Python script that automates document creation:
+
+**Location:** `.claude/skills/brewery-doc-template/create_doc.py`
+
+**Usage:**
+```bash
+# Interactive mode (prompts for all fields)
+python create_doc.py --interactive
+
+# Command-line mode with auto-suggestions
+python create_doc.py --title "Dry Hopping" --category 4 --owner Bryggmästaren
+
+# Full command-line mode
+python create_doc.py \
+  --title "CO2 Safety" \
+  --description "Safety procedures for CO2 handling" \
+  --category 6 \
+  --owner Skyddsombud \
+  --tags "säkerhet,co2,arbetsmiljö"
+```
+
+**Benefits:**
+- Interactive: Guides you through all required fields
+- Smart: Suggests categories, owners, and tags based on title
+- Validated: Ensures all fields are valid before creating file
+- Consistent: Always generates properly formatted documents
+
 ## Instructions for Creating Documents
 
 When the user requests a new document:
 
-1. **Ask for key information** if not provided:
-   - Document title
-   - Which category it belongs to (from the 11 categories above)
-   - Who owns/maintains it (from valid owner roles)
-   - Initial status (default to "draft" if creating a new document)
-   - Relevant tags
+1. **Option A: Use the Python script** (recommended):
+   ```bash
+   python .claude/skills/brewery-doc-template/create_doc.py --interactive
+   ```
+   - Follow the prompts to create a properly formatted document
+   - Script will suggest categories, owners, and tags
 
-2. **Determine the file path**:
-   - Base path: `/home/user/bryggeriledning/docs/`
-   - Add category folder (e.g., `4_Produktion/`)
-   - Add filename (use Swedish characters, underscores for spaces)
-   - Example: `/home/user/bryggeriledning/docs/4_Produktion/Ny_process.md`
+2. **Option B: Manual creation**:
+
+   a. **Ask for key information** if not provided:
+      - Document title
+      - Which category it belongs to (from the 11 categories above)
+      - Who owns/maintains it (from valid owner roles)
+      - Initial status (default to "draft" if creating a new document)
+      - Relevant tags
+
+   b. **Determine the file path**:
+      - Base path: `/home/user/bryggeriledning/docs/`
+      - Add category folder (e.g., `4_Produktion/`)
+      - Add filename (use Swedish characters, underscores for spaces)
+      - Example: `/home/user/bryggeriledning/docs/4_Produktion/Ny_process.md`
 
 3. **Create the document** using this exact template:
 
