@@ -227,20 +227,51 @@ tags:
 - Each tag on a new line
 - Closing `---` must be present
 
+## Python Script Available
+
+This skill has a companion Python script that automates validation:
+
+**Location:** `.claude/skills/metadata-validator/validate_metadata.py`
+
+**Usage:**
+```bash
+# Basic validation with text report
+python validate_metadata.py
+
+# JSON output for programmatic use
+python validate_metadata.py --json
+
+# Verbose output to see progress
+python validate_metadata.py --verbose
+
+# Custom docs directory
+python validate_metadata.py --docs-dir /path/to/docs
+```
+
+**Benefits of using the script:**
+- Fast: Validates all 53+ files in seconds
+- Consistent: Same validation logic every time
+- Repeatable: Can be run in CI/CD pipelines
+- Machine-readable: JSON output for automation
+
 ## Implementation Instructions
 
 When the user requests validation:
 
-1. **Use Glob to find files**:
+1. **Option A: Use the Python script** (recommended for full validation):
+   ```bash
+   python .claude/skills/metadata-validator/validate_metadata.py
    ```
-   Pattern: docs/[0-9]*/*.md
-   ```
+   - Then parse and explain the results to the user
+   - Offer to fix specific issues
 
-2. **Read each file** and check:
-   - Extract frontmatter (between first two `---`)
-   - Parse YAML structure
-   - Validate each required field
-   - Check values against valid options
+2. **Option B: Manual validation** (for specific files or when script unavailable):
+   - Use Glob to find files: `docs/[0-9]*/*.md`
+   - Read each file and check:
+     - Extract frontmatter (between first two `---`)
+     - Parse YAML structure
+     - Validate each required field
+     - Check values against valid options
 
 3. **Categorize issues**:
    - Critical: Missing frontmatter or required fields

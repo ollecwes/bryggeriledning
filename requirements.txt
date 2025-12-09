@@ -1,3 +1,11 @@
+# Documentation site
 mkdocs
 mkdocs-material
+
+# Image processing
 Pillow
+
+# Python skills dependencies
+PyYAML>=6.0            # YAML parsing for metadata validation
+markdown>=3.4          # Markdown to HTML conversion
+weasyprint>=60.0       # HTML to PDF conversion for branded documents

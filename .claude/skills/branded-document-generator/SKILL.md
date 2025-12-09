@@ -310,6 +310,42 @@ code, pre, .technical {
 </html>
 ```
 
+## Python Script Available
+
+This skill has a companion Python script that automates document generation:
+
+**Location:** `.claude/skills/branded-document-generator/generate_branded_doc.py`
+
+**Usage:**
+```bash
+# Generate a manual (default)
+python generate_branded_doc.py docs/3_Livsmedelssäkerhet/HACCP_plan.md
+
+# Generate a print checklist
+python generate_branded_doc.py cleaning.md --type checklist
+
+# Generate a poster
+python generate_branded_doc.py safety.md --type poster
+
+# Generate HTML preview (for debugging)
+python generate_branded_doc.py doc.md --html-preview
+
+# Custom output location
+python generate_branded_doc.py doc.md --output custom_name.pdf
+```
+
+**Document Types:**
+- `checklist` - Print-ready checklists with checkboxes (A4 portrait)
+- `manual` - Professional manuals with cover and TOC (A4 portrait)
+- `poster` - High-contrast posters for walls (A3 portrait)
+- `presentation` - Presentation slides (A4 landscape)
+
+**Benefits:**
+- Automated: One command generates branded PDFs
+- Consistent: Always follows Brygd brand guidelines
+- Fast: Converts markdown to PDF in seconds
+- Customizable: Different templates for different use cases
+
 ## Step-by-Step Instructions
 
 ### When User Requests a Branded Document
@@ -325,24 +361,27 @@ code, pre, .technical {
    - Need to extract specific sections?
    - Include images?
 
-3. **Apply appropriate template**:
+3. **Use the Python script** (recommended):
+   ```bash
+   python .claude/skills/branded-document-generator/generate_branded_doc.py \
+     <input.md> --type <checklist|manual|poster|presentation>
+   ```
+
+   **OR manually apply template**:
    - Choose CSS/HTML template based on type
    - Customize for specific use case
-
-4. **Generate output**:
    - Use weasyprint, pandoc, or HTML generation
-   - Apply Brygd branding
-   - Verify logo is present
 
-5. **Verify output**:
+4. **Verify output**:
    - Check colors match brand
    - Typography correct
    - Layout is clean and readable
    - Technical data uses monospace font
+   - Logo is present
 
-6. **Save and provide to user**:
-   - Save to appropriate location (e.g., `docs/exports/`)
-   - Provide download link or path
+5. **Provide to user**:
+   - Files saved to `docs/exports/` by default
+   - Provide path to generated document
 
 ### Example: Creating a Print Checklist
 
