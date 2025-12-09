@@ -6,22 +6,18 @@ This directory contains brand assets used for generating branded documents and p
 
 ### Header Logo
 **File:** `brygd_logo_header.webp`
-**Source:** `\iceman\public\images\brygd_logo_header.webp`
+**Source:** Originally from `docs/11_Varumärke_och_Kommunikation/`
 **Usage:** Document headers, presentations, branded exports
+**Size:** 7.3 KB
 
-**Status:** ⚠️ **Needs to be copied from iceman repository**
-
-To add the logo:
-```bash
-cp /path/to/iceman/public/images/brygd_logo_header.webp docs/assets/
-```
+**Status:** ✅ **Available**
 
 ## Directory Structure
 
 ```
 docs/assets/
 ├── README.md                    # This file
-├── brygd_logo_header.webp      # Main logo (needs to be added)
+├── brygd_logo_header.webp      # Main logo (7.3 KB)
 └── images/                      # Other images used in documentation
 ```
 
