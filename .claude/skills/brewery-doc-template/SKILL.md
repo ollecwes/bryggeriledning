@@ -53,8 +53,16 @@ The `owner` field must be one of these valid roles:
 - **Bryggmästaren** / **Bryggmästare** (Brewmaster)
 - **Bryggerichef** (Brewery Manager)
 - **Kvalitetsansvarig** (Quality Manager)
-- **Lagerchef** (Warehouse Manager)
-- **Försäljningsansvarig** (Sales Manager)
+- **Lageransvarig** (Warehouse Responsible)
+- **Marknadsansvarig** (Marketing Manager)
+- **Ekonomiansvarig** (Finance Manager)
+- **Inköpsansvarig** (Purchasing Manager)
+- **Miljöansvarig** (Environmental Manager)
+- **Logistikansvarig** (Logistics Manager)
+- **Fastighetsansvarig** (Property Manager)
+- **Skyddsombud** (Safety Representative)
+- **Säljare** (Salesperson)
+- **Besöksansvarig** (Visitor Manager)
 
 ## Document Status Values
 
