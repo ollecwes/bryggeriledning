@@ -17,12 +17,21 @@ import re
 
 try:
     import markdown
-    from weasyprint import HTML, CSS
     import yaml
 except ImportError as e:
     print(f"Error: Missing required package: {e}")
-    print("Install with: pip install markdown weasyprint PyYAML")
+    print("Install with: pip install markdown PyYAML")
     sys.exit(1)
+
+# Import weasyprint only when needed (for PDF generation)
+WEASYPRINT_AVAILABLE = False
+try:
+    from weasyprint import HTML, CSS
+    WEASYPRINT_AVAILABLE = True
+except (ImportError, OSError) as e:
+    # weasyprint or its dependencies not available
+    # HTML preview will still work
+    pass
 
 
 class BrygdBranding:
@@ -469,6 +478,19 @@ class BrandedDocumentGenerator:
         Returns:
             Path to generated PDF file
         """
+        # Check if weasyprint is available
+        if not WEASYPRINT_AVAILABLE:
+            print("❌ Error: weasyprint is not available for PDF generation", file=sys.stderr)
+            print("", file=sys.stderr)
+            print("To generate PDFs, you need to install weasyprint dependencies:", file=sys.stderr)
+            print("  brew install cairo pango gdk-pixbuf libffi", file=sys.stderr)
+            print("", file=sys.stderr)
+            print("For now, use --html-preview to generate HTML instead:", file=sys.stderr)
+            print(f"  python3 {sys.argv[0]} {self.input_file} --html-preview", file=sys.stderr)
+            print("", file=sys.stderr)
+            print("Then you can print to PDF from your browser (File → Print → Save as PDF)", file=sys.stderr)
+            sys.exit(1)
+
         print(f"Generating {self.doc_type_config['name']} document...")
         print(f"Input: {self.input_file}")
         print(f"Output: {self.output_file}")
