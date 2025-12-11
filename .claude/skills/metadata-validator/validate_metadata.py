@@ -7,13 +7,16 @@ Usage: python validate_metadata.py [--json] [--fix] [--verbose]
 """
 
 import argparse
-import re
 import sys
 from pathlib import Path
 from typing import Dict, List, Tuple, Any
 from dataclasses import dataclass, field
 from enum import Enum
 import yaml
+
+# Add shared config directory to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'shared'))
+from brewery_config import VALID_OWNERS, VALID_STATUSES
 
 
 class Severity(Enum):
@@ -61,27 +64,8 @@ class ValidationResult:
 class MetadataValidator:
     """Validates YAML frontmatter in markdown documentation files"""
 
-    # Valid owner roles
-    VALID_OWNERS = {
-        "VD",
-        "Bryggmästaren",
-        "Bryggmästare",
-        "Bryggerichef",
-        "Kvalitetsansvarig",
-        "Lageransvarig",
-        "Marknadsansvarig",
-        "Ekonomiansvarig",
-        "Inköpsansvarig",
-        "Miljöansvarig",
-        "Logistikansvarig",
-        "Fastighetsansvarig",
-        "Skyddsombud",
-        "Säljare",
-        "Besöksansvarig",
-    }
-
-    # Valid status values
-    VALID_STATUSES = {"published", "draft", "archived"}
+    # Valid owner roles and status values (imported from shared config)
+    # VALID_OWNERS and VALID_STATUSES are now imported from brewery_config
 
     # Required fields in frontmatter
     REQUIRED_FIELDS = {"title", "description", "owner", "status", "tags"}
@@ -242,12 +226,12 @@ class MetadataValidator:
                 field="owner",
                 message="Owner is empty"
             ))
-        elif str(owner) not in self.VALID_OWNERS:
+        elif str(owner) not in VALID_OWNERS:
             self.result.add_issue(Issue(
                 file_path=str(rel_path),
                 severity=Severity.ERROR,
                 field="owner",
-                message=f"Invalid owner role: '{owner}' (must be one of: {', '.join(sorted(self.VALID_OWNERS))})"
+                message=f"Invalid owner role: '{owner}' (must be one of: {', '.join(sorted(VALID_OWNERS))})"
             ))
 
     def _validate_status(self, rel_path: Path, frontmatter: Dict[str, Any]):
@@ -263,9 +247,9 @@ class MetadataValidator:
                 field="status",
                 message="Status is empty"
             ))
-        elif str(status) not in self.VALID_STATUSES:
+        elif str(status) not in VALID_STATUSES:
             # Check for capitalization issues
-            if str(status).lower() in self.VALID_STATUSES:
+            if str(status).lower() in VALID_STATUSES:
                 self.result.add_issue(Issue(
                     file_path=str(rel_path),
                     severity=Severity.ERROR,
@@ -277,7 +261,7 @@ class MetadataValidator:
                     file_path=str(rel_path),
                     severity=Severity.ERROR,
                     field="status",
-                    message=f"Invalid status: '{status}' (must be one of: {', '.join(sorted(self.VALID_STATUSES))})"
+                    message=f"Invalid status: '{status}' (must be one of: {', '.join(sorted(VALID_STATUSES))})"
                 ))
 
     def _validate_tags(self, rel_path: Path, frontmatter: Dict[str, Any]):
