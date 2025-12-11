@@ -12,8 +12,12 @@ import argparse
 import sys
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 import re
+
+# Add shared config directory to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'shared'))
+from brewery_config import VALID_OWNERS
 
 
 class BreweryDocTemplate:
@@ -78,24 +82,8 @@ class BreweryDocTemplate:
         }
     }
 
-    # Valid owner roles
-    VALID_OWNERS = [
-        "VD",
-        "Bryggmästaren",
-        "Bryggmästare",
-        "Bryggerichef",
-        "Kvalitetsansvarig",
-        "Lageransvarig",
-        "Marknadsansvarig",
-        "Ekonomiansvarig",
-        "Inköpsansvarig",
-        "Miljöansvarig",
-        "Logistikansvarig",
-        "Fastighetsansvarig",
-        "Skyddsombud",
-        "Säljare",
-        "Besöksansvarig"
-    ]
+    # Valid owner roles (imported from shared config)
+    # VALID_OWNERS is now imported from brewery_config
 
     # Valid status values
     VALID_STATUSES = ["draft", "published", "archived"]
@@ -318,7 +306,7 @@ tags:
         if category not in self.CATEGORIES:
             raise ValueError(f"Invalid category: {category}")
 
-        if owner not in self.VALID_OWNERS:
+        if owner not in VALID_OWNERS:
             raise ValueError(f"Invalid owner: {owner}")
 
         if status not in self.VALID_STATUSES:
@@ -349,7 +337,7 @@ tags:
         return file_path
 
 
-def interactive_mode(generator: BreweryDocTemplate) -> Dict[str, any]:
+def interactive_mode(generator: BreweryDocTemplate) -> Dict[str, Any]:
     """
     Interactive mode to gather document details
 
@@ -397,7 +385,7 @@ def interactive_mode(generator: BreweryDocTemplate) -> Dict[str, any]:
     # Suggest and select owner
     suggested_owner = generator.suggest_owner(category)
     print(f"\nValid owners:")
-    for i, owner in enumerate(generator.VALID_OWNERS, 1):
+    for i, owner in enumerate(VALID_OWNERS, 1):
         marker = " (suggested)" if owner == suggested_owner else ""
         print(f"  {i}. {owner}{marker}")
 
@@ -406,14 +394,14 @@ def interactive_mode(generator: BreweryDocTemplate) -> Dict[str, any]:
         # Check if it's a number (index) or a name
         if owner_input.isdigit():
             idx = int(owner_input) - 1
-            if 0 <= idx < len(generator.VALID_OWNERS):
-                owner = generator.VALID_OWNERS[idx]
+            if 0 <= idx < len(VALID_OWNERS):
+                owner = VALID_OWNERS[idx]
             else:
                 print(f"Error: Invalid owner index: {owner_input}")
                 sys.exit(1)
         else:
             owner = owner_input
-            if owner not in generator.VALID_OWNERS:
+            if owner not in VALID_OWNERS:
                 print(f"Error: Invalid owner: {owner}")
                 sys.exit(1)
     else:

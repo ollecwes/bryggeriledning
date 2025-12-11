@@ -151,9 +151,18 @@ class BrandedDocumentGenerator:
         else:
             self.content = content
 
+    @staticmethod
+    def _escape_css_string(s: str) -> str:
+        """Escape string for use in CSS content property"""
+        return s.replace('\\', '\\\\').replace('"', '\\"').replace('\n', ' ')
+
     def _get_css(self) -> str:
         """Generate CSS for the document"""
         config = self.doc_type_config
+
+        # Escape metadata for safe use in CSS
+        title_escaped = self._escape_css_string(self.metadata.get('title', 'Brygd Bryggeri'))
+        date_escaped = self._escape_css_string(datetime.now().strftime('%Y-%m-%d'))
 
         css = f"""
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Inter:wght@400;600&family=JetBrains+Mono&display=swap');
@@ -171,7 +180,7 @@ class BrandedDocumentGenerator:
             margin: 2cm;
 
             @top-right {{
-                content: "{self.metadata.get('title', 'Brygd Bryggeri')}";
+                content: "{title_escaped}";
                 font-family: {BrygdBranding.FONT_TECHNICAL};
                 font-size: 9pt;
                 color: var(--copper);
@@ -185,7 +194,7 @@ class BrandedDocumentGenerator:
             }}
 
             @bottom-left {{
-                content: "{datetime.now().strftime('%Y-%m-%d')}";
+                content: "{date_escaped}";
                 font-family: {BrygdBranding.FONT_TECHNICAL};
                 font-size: 9pt;
                 color: var(--cast-iron);
@@ -419,7 +428,9 @@ class BrandedDocumentGenerator:
         logo_path = self.repo_root / BrygdBranding.LOGO_PATH
         logo_html = ""
         if logo_path.exists():
-            logo_html = f'<img src="{logo_path}" alt="Brygd Bryggeri">'
+            # Use POSIX path format for cross-platform compatibility in HTML
+            logo_url = logo_path.as_posix()
+            logo_html = f'<img src="{logo_url}" alt="Brygd Bryggeri">'
 
         header = f"""
         <div class="document-header">
