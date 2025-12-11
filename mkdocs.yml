@@ -45,6 +45,7 @@ nav:
     - 1_Tillstånd_och_registrering/Gårdsförsäljning.md
   - 2. Skatt & Rapportering:
     - 2_Skatt_och_rapportering/Punktskattedeklaration.md
+    - 2_Skatt_och_rapportering/Destruktion_av_öl.md
     - 2_Skatt_och_rapportering/EMCS_dokumentation.md
     - 2_Skatt_och_rapportering/Statistikrapport_FHM.md
     - 2_Skatt_och_rapportering/Förpackningsrapportering_NV.md
@@ -59,6 +60,7 @@ nav:
     - 3_Livsmedelssäkerhet/Skadedjursbekämpning.md
   - 4. Produktion:
     - 4_Produktion/Receptutveckling.md
+    - 4_Produktion/Produktportfölj.md
     - 4_Produktion/Mäskning.md
     - 4_Produktion/Kokning.md
     - 4_Produktion/Jäsning.md
